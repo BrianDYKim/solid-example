@@ -1,11 +1,11 @@
-package team.me.external
+package team.me.messaging
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class ExternalApplication
+class ExternalMessagingApplication
 
 fun main(args: Array<String>) {
-    runApplication<ExternalApplication>(*args)
+    runApplication<ExternalMessagingApplication>(*args)
 }

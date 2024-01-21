@@ -25,5 +25,5 @@ pluginManagement {
 
 // modules
 include("common")
-include("core", "core:domain", "core:external")
+include("core", "core:domain", "core:external-messaging")
 include("application", "application:admin-api", "application:api", "application:batch")
